@@ -31,7 +31,7 @@ end
 def self.genre_count
   genre_number = {}
   @@genres.each do |genre, number|
-  
+  genre.uniq 
 end
 end
 end
