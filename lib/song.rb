@@ -34,8 +34,7 @@ def self.genre_count
   count = 0 
   if number = number
     count += 1 
-  end
-  count = number
+  number = count
   number
 end
 end
