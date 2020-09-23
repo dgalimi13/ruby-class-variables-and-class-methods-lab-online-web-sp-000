@@ -28,7 +28,7 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres.to_h.each do genre || number
+  @@genres.to_h.each do |genre, number|
   genre.uniq
   number = 0 
   if number = genre 
