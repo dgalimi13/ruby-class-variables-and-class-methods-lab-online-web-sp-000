@@ -31,13 +31,13 @@ end
 def self.genre_count
   genre_number = {}
   @@genres.each do |genre|
-  if !genre_number[genre]
-    genre_number[genre] = 1
-  else 
-    genre_number[genre] += 1 
-end
-end
-genre_number
+    if !genre_number[genre]
+      genre_number[genre] = 1
+    else 
+      genre_number[genre] += 1 
+    end
+  end
+  genre_number
 end
 
 end
