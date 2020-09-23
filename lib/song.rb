@@ -40,7 +40,7 @@ def self.genre_count
   genre_number
 end
 
-def artist_count
+def self.artist_count
   artist_number = {}
   @@artist.each do |artist|
     if !artist_number[artist]
