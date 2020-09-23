@@ -35,5 +35,6 @@ def self.genre_count
     number += 1
   end
 end
+end
 
 end
