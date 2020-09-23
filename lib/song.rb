@@ -46,7 +46,7 @@ def self.artist_count
     if !artist_number[artist]
       artist_number[artist] = 1 
     else
-      artist_number[genre] += 1
+      artist_number[artist] += 1
     end
   end
   artist_number
