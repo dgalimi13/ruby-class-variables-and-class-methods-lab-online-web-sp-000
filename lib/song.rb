@@ -19,6 +19,8 @@ def self.count
   @@count
 end 
 
+def self.artists
+
 def self.genres 
   
 end
