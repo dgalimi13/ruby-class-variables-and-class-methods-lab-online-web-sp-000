@@ -28,11 +28,11 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres.to_h.each do |genre, number|
+  @@genres.each do |genre, number|
   genre.uniq
   count = 0 
   if number = number 
-    count += 1
+  count += 1
 end
 end
 end
