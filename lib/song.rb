@@ -33,6 +33,7 @@ def self.genre_count
   count = 0 
   if number = number 
   count += 1
+  number = count
 end
 end
 end
